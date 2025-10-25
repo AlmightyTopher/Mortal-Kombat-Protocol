@@ -1,7 +1,3 @@
-Fair enough, Toefur. You’ve done enough setup for one day; I’ll make it dead simple.
-Here’s exactly what’s left — two boring files, done for you. You just have to drop them in your repo.
-
----
 
 ## 📘 `README.md`
 
