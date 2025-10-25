@@ -1,0 +1,12 @@
+{
+  "policy": {
+    "priority": ["free", "self_hosted", "official"],
+    "no_duplicates": true,
+    "max_concurrent_mcps": 5
+  },
+  "categories": {
+    "file_systems": {"preferred": ["fast-filesystem-mcp", "Backup"]},
+    "databases": {"preferred": ["DuckDB", "SQLite"]}
+  },
+  "auto_rules": {"free_first": true, "prefer_self_hosted": true, "avoid_redundancy": true}
+}

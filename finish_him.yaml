@@ -1,0 +1,7 @@
+name: finish_him
+description: "Evaluate project completeness and enforce Mortal Kombat Protocol"
+modes:
+  - name: audit
+    command: "python finisher_agent.py --mode audit --project <path>"
+  - name: finalize
+    command: "python finisher_agent.py --mode finalize --project <path>"
