@@ -2,7 +2,9 @@
 
 [![Sync MCP Catalog](https://github.com/AlmightyTopher/Mortal-Kombat-Protocol/actions/workflows/sync-mcp-catalog.yml/badge.svg)](https://github.com/AlmightyTopher/Mortal-Kombat-Protocol/actions/workflows/sync-mcp-catalog.yml)
 
-This repository contains the unified MCP (Model Context Protocol) catalog and associated automation tools for easy MCP server installation and management.
+**AI-Powered Project Improvements Without API Keys!** 🚀
+
+This repository contains the unified MCP (Model Context Protocol) catalog with a **focus on FREE, zero-configuration MCP servers** that enhance project improvements through AI assistance.
 
 ## 📋 Included Files
 
@@ -83,6 +85,52 @@ MCP (Model Context Protocol) servers extend AI assistants with capabilities like
 1. The MCP catalog synchronizes automatically
 2. Manual updates to the catalog should be made in the source repository
 3. Automation scripts can be enhanced via pull requests
+
+## 🚀 ZERO-CONFIG MCP SERVERS (PRIORITY)
+
+**Start here - these work immediately with no setup:**
+
+```bash
+# Core essentials (install first)
+claude mcp add filesystem -- npx -y @modelcontextprotocol/server-filesystem C:/Users/dogma/Projects
+claude mcp add fetch -- npx -y @modelcontextprotocol/server-fetch
+
+# Development power-ups
+claude mcp add git -- npx -y @modelcontextprotocol/server-git --repository .
+claude mcp add sqlite -- npx -y @modelcontextprotocol/server-sqlite C:/path/to/data.db
+claude mcp add playwright -- npx -y @executeautomation/mcp-playwright
+```
+
+### 🔧 How MCP Improves Projects
+
+MCP servers enable AI assistants to directly:
+- **Analyze Code**: Read entire codebases for deep understanding
+- **Query Databases**: Examine data structures and content
+- **Test Web Apps**: Automate browser testing and scraping
+- **Manage Git**: Track changes, analyze history, suggest improvements
+- **Research Documentation**: Fetch latest API docs and examples
+- **Generate Reports**: Process files and create summaries
+
+### 🎯 Free MCP Server Benefits
+
+| Server | What It Does | Project Impact |
+|--------|--------------|----------------|
+| **Filesystem** | Read/write files, explore structure | Code analysis, file generation, refactoring |
+| **Fetch** | Download web content/HTML | Documentation lookup, research, examples |
+| **Git** | Repository operations | History analysis, change tracking, collaboration |
+| **SQLite** | Database queries | Data analysis, schema understanding, reporting |
+| **Playwright** | Browser automation | Web testing, scraping, UI automation |
+| **DuckDB** | Analytics queries | Fast data analysis without setup |
+
+### 💡 Improvement Workflow
+
+1. **Analysis Phase**: Use Filesystem + Git servers to understand current codebase
+2. **Research Phase**: Use Fetch to gather latest documentation and best practices
+3. **Development Phase**: Generate improved code with file access capabilities
+4. **Testing Phase**: Use Playwright for automated testing
+5. **Data Phase**: Query local databases for data-driven insights
+
+**No API keys required - just install and start improving projects!**
 
 ---
 
